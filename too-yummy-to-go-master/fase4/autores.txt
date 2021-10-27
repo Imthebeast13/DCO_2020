@@ -1,0 +1,14 @@
+UC5:
+    Número do aluno: 53512
+    Nome do aluno: Ana Laura Barreira Albuquerque
+    Horas gastas: 30 horas
+
+UC6:
+    Número do aluno: 53683  
+    Nome do aluno: João Godinho
+    Horas gastas: 30 horas
+
+UC7:
+    Número do aluno: 44999
+    Nome do aluno: André Filipe Firmino
+    Horas gastas: 30 horas

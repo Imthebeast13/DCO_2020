@@ -1,0 +1,28 @@
+Contrato UC - 6
+
+OP A: enviaLocalizacao(localizacao)
+pré-condições: 
+            - Existe u: Utilizador corrente autenticado
+pós-condições: 
+            - Seja u: Utilizador corrente, tal que
+                - u.localizacao = localizacao
+            
+---------------------------------------------
+
+OP B1: definirRaio(raio)
+pré-condições:
+            - Existe u: Utilizador corrente autenticado com localizacao definida
+            
+pós-condições: 
+            - n/a
+
+---------------------------------------------
+
+OP B2: definirPeriodo(inicio, fim)
+pré-condições: 
+            - Existe u: Utilizador corrente autenticado
+
+pós-condições:
+            - n/a
+
+               

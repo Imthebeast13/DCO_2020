@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/5"/>
+	<classpathentry kind="src" path="fase3/codigo/TooYummyToGo/src"/>
+	<classpathentry kind="src" path="fase3/codigo/TooYummyToGo/tests"/>
+	<classpathentry kind="lib" path="codigo/.sonarlint/default/.sonartmp_1993481530578336459/sonarlint-slf4j-sonar-log4716121028306880924.jar"/>
+	<classpathentry kind="lib" path="codigo/TooYummyToGo/lib/GeographicLib-Java-1.50.jar"/>
+	<classpathentry kind="lib" path="codigo/TooYummyToGo/lib/monstercard.jar"/>
+	<classpathentry kind="lib" path="codigo/TooYummyToGo/lib/portugueseexpress.jar"/>
+	<classpathentry kind="lib" path="fase3/codigo/TooYummyToGo/lib/GeographicLib-Java-1.50.jar"/>
+	<classpathentry kind="lib" path="fase3/codigo/TooYummyToGo/lib/monstercard.jar"/>
+	<classpathentry kind="lib" path="fase3/codigo/TooYummyToGo/lib/portugueseexpress.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

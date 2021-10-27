@@ -1,0 +1,39 @@
+Novo membro (Ana Albuquerque) vindo de outro grupo
+
+----------------------------------------------------------------------------------
+
+Notas para os docentes, escrito por Ana Albuquerque: 
+
+Quando vim para o grupo trouxe um modelo de dominio feito que refiz depois da nota da 1fase sair.
+- No modelo de dominio que tinha na 1fase acrescentaria 2 novos conceitos: Venda e Stock.
+- Vou deixar aqui um draft do modelo de dominio que refiz sozinha da fase anterior
+antes de me juntar a este grupo, modelo esse que também vai ser usado para reformular e 
+juntar ideias com o novo grupo.
+Este encontra-se na pasta "PDF"
+
+----------------------------------------------------------------------------------
+
+Todos fizemos como trabalho individual cada ID e no final juntamos o trabalho e 
+comparámos ideias. As horas gastas inclui o juntar o trabalho e dabater sobre cada 
+ID e Modelo de Classes.
+Ver pasta PDF, tem contratos, modelo de dominio refeitos.
+
+Modelo de Classes: 
+    Número do aluno: Todos
+    Nome do aluno: Todos
+    Horas gastas: 2 horas
+
+ID - UC5:
+    Número do aluno: 53512
+    Nome do aluno: Ana Laura Barreira Albuquerque
+    Horas gastas: 7 horas
+
+ID - UC6:
+    Número do aluno: 53683  
+    Nome do aluno: João Godinho
+    Horas gastas: 7 horas
+
+ID - UC7:
+    Número do aluno: 44999
+    Nome do aluno: André Filipe Firmino
+    Horas gastas: 10 horas

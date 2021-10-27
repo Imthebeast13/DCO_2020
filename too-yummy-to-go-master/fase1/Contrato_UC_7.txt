@@ -1,0 +1,37 @@
+Contrato UC 7 - Encomendar Produtos
+
+OP A: selecionaComerciante(nome)
+pré-condições: 
+            - Existe u: Utilizador corrente e autenticado
+pós-condições: 
+            - Seja c: comerciante corrente, tal que
+                - c.nome = nome
+            - É criada uma associacao entre u e c
+
+---------------------------------------------
+
+OP B: selecionaProduto(nome, qtd)
+pré-condições: 
+            - Existe u: Utilizador corrente e autenticado
+            - Existe c: Comerciante corrente
+pós-condições:
+            - Seja p: Produto corrrente, tal que
+                - p.nome = nome
+	    - Seja s: Stock de um produto corrente p, é criado i: Item_para_Compra, onde
+                - i.quantidade = qtd
+                - i.quantidade <= s.quantidade
+	    - É criada uma associacao entre i e s
+
+---------------------------------------------
+
+OP C: pagarReserva()
+pré-condições:
+            - Existe u: utilizador corrente e autenticado com cartao de pagamento válido associado 
+            - Existe c: comerciante corrente
+            - Existe i: Item_para_Compra
+pós-condições: 
+            - É criada r, uma nova reserva, tal que:
+                - r.codigo = codigo de reserva único
+            - É criada uma associação entre r e u
+            - É criada uma associação entre r e c
+	    - É criada uma associação entre r e i

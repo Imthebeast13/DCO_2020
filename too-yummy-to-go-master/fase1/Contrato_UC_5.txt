@@ -1,0 +1,33 @@
+Contrato UC - 5
+
+OP A: novaVenda()
+pré-condições: 
+            - Existe c: comerciante corrente e autenticado
+            
+pós-condições: n/a
+
+---------------------------------------------
+
+OP B: adicionaProduto(cod, qtd)
+pré-condições: 
+            - Existe c: comerciante corrente autenticado
+            
+pós-condições:
+            - Seja p: Produto, tal que
+                - p.codigo = cod
+            - Seja s: Stock_de_Produto de um comerciante, associado a p, tal que
+                - s.quantidade = qtd
+           
+---------------------------------------------
+
+OP C: ConfirmaDisponibilidade(inicio, fim)
+pré-condições: 
+            - Existe c: comerciante corrente autenticado
+            - Existe s: Stock_de_Produto
+
+pós-condições: 
+            - É criado v: Venda associada a c e s, tal que:
+                - v.hora_inicio = inicio 
+                - v.hora_fim = fim
+
+
